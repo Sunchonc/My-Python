@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.header('Natthasut')
+st.header('Natthasut & Nirut')
 st.image("./pic/Me.jpg")
 
 col1, col2, col3 = st.columns(3)
