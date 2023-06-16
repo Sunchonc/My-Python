@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.header('natthasut')
+st.header('Natthasut')
 
 col1, col2, col3 = st.columns(3)
 
