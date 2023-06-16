@@ -39,7 +39,7 @@ sp_len = st.number_input("กรุณาเลือกข้อมูล sepal
 sp_wd = st.number_input("กรุณาเลือกข้อมูล sepal.width")
 
 if st.button("ทำนายผล"):
-    dt = pd.read_csv("./data/iris.csv") 
+   dt = pd.read_csv("./data/iris.csv") 
    X = dt.drop('variety', axis=1)
    y = dt.variety   
    Knn_model = KNeighborsClassifier(n_neighbors=3)
