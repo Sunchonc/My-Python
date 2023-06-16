@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 
-import streamlit as st
 
 st.header('Natthasut & Nirut')
 st.image("./pic/Me.jpg")
